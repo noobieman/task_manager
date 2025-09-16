@@ -1,0 +1,96 @@
+/* src/pages/Home.css */
+:root {
+    --primary-purple: #6f42c1;
+    --light-purple: #8c68cd;
+    --lighter-purple: #e2d9f3;
+    --dark-purple: #5a36a9;
+  }
+  
+  .home-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #f5f7ff 0%, #fcfcfc 100%);
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    color: var(--primary-purple);
+    font-size: 1.5rem;
+  }
+  
+  .text-purple {
+    color: var(--primary-purple) !important;
+  }
+  
+  .btn-purple {
+    background-color: var(--primary-purple);
+    border-color: var(--primary-purple);
+    color: white;
+  }
+  
+  .btn-purple:hover {
+    background-color: var(--dark-purple);
+    border-color: var(--dark-purple);
+    color: white;
+  }
+  
+  .btn-outline-purple {
+    color: var(--primary-purple);
+    border-color: var(--primary-purple);
+  }
+  
+  .btn-outline-purple:hover {
+    background-color: var(--primary-purple);
+    color: white;
+  }
+  
+  .hero-section {
+    padding: 80px 0;
+    flex: 1;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-buttons {
+    margin-top: 2rem;
+  }
+  
+  .hero-image {
+    padding: 20px;
+  }
+  
+  .features-section {
+    background-color: white;
+  }
+  
+  .feature-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature-icon {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: var(--lighter-purple);
+    border-radius: 50%;
+    margin: 0 auto;
+  }
