@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Create Axios instance
 const api = axios.create({
-  baseURL: 'http://localhost:5000', // or your backend URL
+  baseURL: 'https://taskmanagerbackend-production-7b55.up.railway.app/', // or your backend URL
 });
 
 // Add a request interceptor to automatically send auth token
